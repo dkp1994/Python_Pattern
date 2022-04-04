@@ -5,3 +5,8 @@
 1 2
 1
 '''
+num = int(input("Enter a rows : "))
+for i in range(num):
+    for j in range(num-i):
+        print(j+1,end=' ')
+    print()
